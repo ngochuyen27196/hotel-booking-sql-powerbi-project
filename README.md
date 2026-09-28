@@ -40,7 +40,7 @@ Created `HotelBookingDB` and imported the CSV into `raw_bookings` with the SSMS 
 - Checked data types (`is_canceled` is `bit`, so it is cast to `INT` before `SUM`/`AVG`).
 
 ### Step 3 — Analysis (SQL)
-10 queries in [`sql/queries.sql`](sql/queries.sql) covering:
+10 queries in [`SQL/queries.sql`](sql/queries.sql) covering:
 
 - `GROUP BY` / aggregate functions
 - CTEs (including nested CTEs)
@@ -69,9 +69,9 @@ Three pages: **Overview**, **Cancellation Analysis**, **Revenue Analysis**.
 
 ## 6. Dashboard Preview
 
-![Overview](images/overview.png)
-![Cancellation Analysis](images/cancellation.png)
-![Revenue Analysis](images/revenue.png)
+![Overview](Screenshots/Overview.png)
+![Cancellation Analysis](Screenshots/Cancellation%20Analysis.png)
+![Revenue Analysis](Screenshots/Revenue%20Analysis.png)
 
 ## 7. Repository Structure
 
