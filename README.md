@@ -40,7 +40,7 @@ Created `HotelBookingDB` and imported the CSV into `raw_bookings` with the SSMS 
 - Checked data types (`is_canceled` is `bit`, so it is cast to `INT` before `SUM`/`AVG`).
 
 ### Step 3 — Analysis (SQL)
-10 queries in [`SQL/queries.sql`](sql/queries.sql) covering:
+10 queries in [`SQL/queries.sql`](SQL/queries.sql) covering:
 
 - `GROUP BY` / aggregate functions
 - CTEs (including nested CTEs)
